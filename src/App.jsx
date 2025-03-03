@@ -2,6 +2,7 @@ import Counter from "./components/counter";
 import ShowHideText from "./components/ShowHideText";
 import ToggleTheme from "./components/toggleTheme";
 import Fetch from "./components/Fetch";
+import ColorChanger from "./components/ColorChanger";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <ToggleTheme />
       <ShowHideText />
       <Fetch />
+      <ColorChanger />
 
       {/* Scroll Buttons */}
       <div className="position-fixed bottom-0 end-0 p-4 d-flex flex-column gap-2">
